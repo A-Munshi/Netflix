@@ -1,0 +1,277 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
+
+.navbar_netflix
+{
+  height: 100%;
+  width: 125 px;
+}
+
+.navbar_nav_items
+{
+  display: flex;
+  gap: 25px;
+}
+
+.netflix_logo
+{
+  width: 12%;
+  height: 100%;
+}
+
+.language_drop_down
+{
+  background: transparent;
+  border: none;
+  color: white;
+  display: flex;
+}
+
+.dropdown_container
+{
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.signin_button
+{
+  border: #dc030f;
+  background-color: #dc030f;
+  color: white;
+  padding: 0.25rem, 0.5rem;
+  border-radius: 6px;
+  height: 33px;
+  width: 75px;
+}
+
+.hero_bg_image_container
+{
+  width: 100%;
+  height: 100%;
+}
+
+.hero_bg_image
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_bg_overlay
+{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero_card
+{
+  position: absolute;
+  top: 37%;
+  left: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_title
+{
+  font-weight: 900;
+  font-size: 2.8rem;
+}
+
+.hero_subtitle
+{
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.hero_description
+{
+  font-weight: 20px;
+  font-size: 1.3rem;
+}
+
+.email
+{
+  width: 450px;
+  height: 60px;
+  color: black;
+  padding: 0.25rem, 0.5rem;
+  border-radius: 5px;
+  border-color: white;
+  background: rgba(0, 0, 0, 0.5);
+  }
+
+.get_started
+{
+  font-size: large;
+  width: 170px;
+  height: 60px;
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  padding: 0.25rem, 0.5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-1,
+.card-2,
+.card-3
+{
+  border-top: 10px grey;
+  padding: 100px;
+  
+}
+
+.card-1
+{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-1
+{
+  padding-left: 125px;
+}
+
+.card-1 video
+{
+  position: relative;
+  width: 120%;
+  height: 58.7%;
+  grid-column: 2/2;
+  grid-row:  1/2;
+  z-index: -1;
+}
+
+.card-1 img
+{
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.style-cards h1
+{
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.style-cards h3
+{
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.card-2
+{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 40% 50%;
+  text-align: right;
+  align-items: right;
+  padding: 25px 45px 50px;
+}
+
+.desc-2
+{
+  padding-left: 100px;
+}
+
+.card-3
+{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-3
+{
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+.card-3 img
+{
+  width: 110%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-3 video
+{
+  position: relative;
+  top: -87px;
+  left: 125px;
+  width: 65%;
+  height: 78%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.footer,
+.footer a
+{
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p
+{
+  margin-bottom: 1.5rem;
+  padding-left: 100px;
+}
+
+.footer .footer-cols
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  padding-left: 100px;
+}
+
+.foter li
+{
+  line-height: 1.9;
+}
